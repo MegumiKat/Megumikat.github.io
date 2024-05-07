@@ -137,10 +137,7 @@
         <a href="https://github.com/MegumiKat" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;MegumiKat" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
   </div>
-<!-- CloudCalendar -->
-<div class="widget-wrap" style="width: 90%;margin-left: auto;margin-right: auto; opacity: 0.97;">
-	<div class="widget" id="CloudCalendar"></div>
-</div>
+
         </div>
       </div>
     </div>
@@ -248,23 +245,6 @@
 
 
 
-<!-- calendar widget -->
-{% if theme.CloudCalendar.enable %}
-    <script src="{{ theme.CloudCalendar.calendarCdn }}"></script>
-    <script src="{{ theme.CloudCalendar.langCdn }}"></script>
-    <script>
-    $(function() {
-        $('#CloudCalendar').aCalendar('{{ theme.CloudCalendar.language }}',
-            $.extend(
-                '', {
-                    single:{{ theme.CloudCalendar.single }},
-                    root:'{{ theme.CloudCalendar.root }}'
-                }
-            )
-        );
-    });
-    </script>
-{% endif %}
 
 </body>
 </html>
