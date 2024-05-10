@@ -1279,7 +1279,7 @@ pre code {
   transition: all 0.2s ease-in-out;
 }
 .links-of-author a::before {
-  background: #ff6c9e;
+  background: #abff0d;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2005,7 +2005,6 @@ pre code {
 }
 .post-body:hover {
   color: #000;
-  border-bottom: 2px solid #000;
 }
 .post-gallery {
   display: flex;
