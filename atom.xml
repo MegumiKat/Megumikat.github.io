@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mark Wu&#39;s Little Website</title>
+  <title>Mark&#39;s Little Website</title>
   
   <subtitle>「异想天开的幻想也要适可而止哦」</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>Mark Wu</name>
+    <name>Mark</name>
     
   </author>
   
